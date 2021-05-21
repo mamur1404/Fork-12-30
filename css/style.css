@@ -41,6 +41,73 @@ ul {
 
 
 
+
+.sec__title {
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: 700;
+  font-size: 51px;
+  color: #692340;
+  margin-bottom: 37px;
+}
+
+.sec__txt {
+  font-family: 'Roboto';
+  text-align: center;
+  max-width: 678px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #692340;
+  margin: 0 auto;
+  margin-bottom: 147px;
+}
+
+.img__mm {
+  margin-bottom: 31px;
+}
+
+.txt__mm {
+
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #692340;
+  max-width: 117px;
+  text-align: center;
+ 
+}
+
+.mm__txt {
+  font-family: var(--font-primary);
+  color: #692340;
+  font-size: 16px;
+  max-width: 192px;
+  text-align: center;
+}
+
+.mamur__groups {
+  max-width: 258px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all__groups {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.mamur__groups:nth-child(2) .txt__mm {
+  max-width: 138px;
+}
+
+.mamur__groups:nth-child(2) .mm__txt {
+  max-width: 196px;
+}
+
 /* Ma'mur end */
 
 /* Ulugbek start */
